@@ -1,0 +1,15 @@
+ros-humble-clearpath-mounts-description (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Standard urdf and yaml file name and path
+    Fixed spacing in urdfs
+  * Description classes
+  * PACS mounts
+    Common PACS Riser
+    Hokuyo and novatel description fixes
+  * Initial commit with platform, decoration and mounts generating
+  * Added clearpath_mounts_description.
+  * Contributors: Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 Jun 2023 04:00:00 -0000
+
+
