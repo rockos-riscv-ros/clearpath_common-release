@@ -2,6 +2,9 @@
 Changelog for package clearpath_platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2023-07-04)
+------------------
+
 0.0.1 (2023-06-21)
 ------------------
 * Added namespacing support
