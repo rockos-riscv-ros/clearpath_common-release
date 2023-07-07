@@ -2,6 +2,9 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2023-07-07)
+------------------
+
 0.0.3 (2023-07-05)
 ------------------
 * Updated husky track value
