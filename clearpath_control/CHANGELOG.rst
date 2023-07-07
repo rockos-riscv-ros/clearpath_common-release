@@ -2,6 +2,9 @@
 Changelog for package clearpath_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2023-07-07)
+------------------
+
 0.0.3 (2023-07-05)
 ------------------
 * Updated localization configs
