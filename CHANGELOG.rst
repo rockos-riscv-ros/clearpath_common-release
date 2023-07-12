@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2023-07-12)
+------------------
+* [clearpath_platform_description] Fixed unused dependency in CMakeLists.txt.
+* Contributors: Tony Baltovski
+
 0.0.4 (2023-07-07)
 ------------------
 
