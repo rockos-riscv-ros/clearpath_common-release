@@ -1,3 +1,34 @@
+## clearpath_common (humble) - 0.0.6-1
+
+The packages in the `clearpath_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release clearpath_common -r humble -t humble` on `Thu, 13 Jul 2023 13:14:33 -0000`
+
+These packages were released:
+- `clearpath_common`
+- `clearpath_control`
+- `clearpath_description`
+- `clearpath_generator_common`
+- `clearpath_mounts_description`
+- `clearpath_platform`
+- `clearpath_platform_description`
+- `clearpath_sensors_description`
+
+Version of package(s) in repository `clearpath_common`:
+
+- upstream repository: https://github.com/clearpathrobotics/clearpath_common.git
+- release repository: https://github.com/clearpath-gbp/clearpath_common-release.git
+- rosdistro version: `0.0.5-1`
+- old version: `0.0.5-1`
+- new version: `0.0.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## clearpath_common (humble) - 0.0.5-1
 
 The packages in the `clearpath_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release clearpath_common -r humble -t humble` on `Wed, 12 Jul 2023 12:52:22 -0000`
