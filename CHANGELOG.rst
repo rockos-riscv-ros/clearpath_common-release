@@ -2,6 +2,12 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.7 (2023-07-19)
+------------------
+* Renamed description to attachments
+* Rnamed accessories to links
+* Contributors: Luis Camero
+
 0.0.6 (2023-07-13)
 ------------------
 * Merge pull request `#18 <https://github.com/clearpathrobotics/clearpath_common/issues/18>`_ from clearpathrobotics/updated-config
