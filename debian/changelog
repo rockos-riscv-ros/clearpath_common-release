@@ -1,0 +1,52 @@
+ros-humble-clearpath-common (0.0.8-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.7-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 19 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.6-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.5-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.4-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 07 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-common (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Updated dependencies
+  * Bishop sensors/mounts
+  * [clearpath_common] Added metapackage.
+  * Contributors: Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 Jun 2023 04:00:00 -0000
+
+
