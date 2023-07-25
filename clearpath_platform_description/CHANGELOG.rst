@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.8 (2023-07-24)
+------------------
+* Updated J100 imu and navsat links
+* Contributors: Roni Kreinin
+
 0.0.7 (2023-07-19)
 ------------------
 * Renamed URDF and meshes directories
