@@ -1,0 +1,76 @@
+ros-humble-clearpath-sensors-description (0.0.9-1jammy) jammy; urgency=high
+
+  * Added Garmin 18x, Novatel smart 6 and 7
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 31 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 19 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 07 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.1-1jammy) jammy; urgency=high
+
+  * Added GPS
+    Added realsense gazebo parameters
+  * Added gazebo IMU plugin
+  * use_sim_time support
+    Added lidar gazebo plugins
+  * Sim fixes
+  * Bishop sensors/mounts
+  * Added microstrain
+  * Added velodyne
+  * Added realsense description
+  * Updated sensor naming
+  * Sensor descriptions
+  * Standard urdf and yaml file name and path
+    Fixed spacing in urdfs
+  * Description classes
+  * PACS mounts
+    Common PACS Riser
+    Hokuyo and novatel description fixes
+  * [clearpath_sensors_description] Moved Novatel and Hokuyo into sensors from J100.
+  * Added clearpath_sensors_description.
+  * Contributors: Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 Jun 2023 04:00:00 -0000
+
+
