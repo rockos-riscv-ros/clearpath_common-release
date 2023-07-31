@@ -2,6 +2,11 @@
 Changelog for package clearpath_sensors_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2023-07-31)
+------------------
+* Added Garmin 18x, Novatel smart 6 and 7
+* Contributors: Roni Kreinin
+
 0.0.8 (2023-07-24)
 ------------------
 
