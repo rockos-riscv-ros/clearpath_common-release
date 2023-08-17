@@ -45,6 +45,15 @@ class PlatformParam():
     TELEOP_JOY = 'teleop_joy'
     TWIST_MUX = 'twist_mux'
 
+    PARAMETERS = [
+      CONTROL,
+      IMU_FILTER,
+      LOCALIZATION,
+      TELEOP_INTERACTIVE_MARKERS,
+      TELEOP_JOY,
+      TWIST_MUX
+    ]
+
     class BaseParam():
         CLEARPATH_CONTROL = 'clearpath_control'
         CLEARPATH_PLATFORM = 'clearpath_platform'
@@ -168,10 +177,8 @@ class PlatformParam():
             self.default_parameter_file_path = 'config'
 
     PARAMETER = {
-        CONTROL: BaseParam,
         IMU_FILTER: ImuFilterParam,
         LOCALIZATION: LocalizationParam,
-        TELEOP_INTERACTIVE_MARKERS: BaseParam,
         TELEOP_JOY: TeleopJoyParam,
         TWIST_MUX: TwistMuxParam,
     }
@@ -180,4 +187,5 @@ class PlatformParam():
                 parameter: str,
                 clearpath_config: ClearpathConfig,
                 param_path: str) -> BaseParam:
-        return PlatformParam.PARAMETER[parameter](parameter, clearpath_config, param_path)
+        return PlatformParam.PARAMETER.setdefault(parameter, PlatformParam.BaseParam)(
+            parameter, clearpath_config, param_path)
