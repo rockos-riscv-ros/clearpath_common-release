@@ -31,17 +31,15 @@
 # of Clearpath Robotics.
 
 from clearpath_config.sensors.types.sensor import BaseSensor
-from clearpath_config.sensors.types.lidars_2d import BaseLidar2D, HokuyoUST10, SickLMS1XX
+from clearpath_config.sensors.types.lidars_2d import BaseLidar2D, HokuyoUST, SickLMS1XX
 from clearpath_config.sensors.types.lidars_3d import BaseLidar3D, VelodyneLidar
 from clearpath_config.sensors.types.cameras import BaseCamera, IntelRealsense
-from clearpath_config.sensors.types.imu import BaseIMU, Microstrain
-from clearpath_config.sensors.types.gps import (
-    Garmin18x,
-    NovatelSmart6,
-    NovatelSmart7,
-    SwiftNavDuro
+from clearpath_config.sensors.types.imu import (
+    BaseIMU,
+    CHRoboticsUM6,
+    Microstrain,
+    RedshiftUM7
 )
-
 
 from typing import List
 
@@ -160,16 +158,16 @@ class SensorDescription():
             })
 
     MODEL = {
-        HokuyoUST10.SENSOR_MODEL: Lidar2dDescription,
+        HokuyoUST.SENSOR_MODEL: Lidar2dDescription,
         SickLMS1XX.SENSOR_MODEL: Lidar2dDescription,
         IntelRealsense.SENSOR_MODEL: IntelRealsenseDescription,
         Microstrain.SENSOR_MODEL: ImuDescription,
         VelodyneLidar.SENSOR_MODEL: Lidar3dDescription,
-        SwiftNavDuro.SENSOR_MODEL: BaseDescription,
-        Garmin18x.SENSOR_MODEL: BaseDescription,
-        NovatelSmart6.SENSOR_MODEL: BaseDescription,
-        NovatelSmart7.SENSOR_MODEL: BaseDescription
+        CHRoboticsUM6.SENSOR_MODEL: ImuDescription,
+        RedshiftUM7.SENSOR_MODEL: ImuDescription
     }
 
     def __new__(cls, sensor: BaseSensor) -> BaseDescription:
-        return SensorDescription.MODEL[sensor.SENSOR_MODEL](sensor)
+        return SensorDescription.MODEL.setdefault(
+            sensor.SENSOR_MODEL,
+            SensorDescription.BaseDescription)(sensor)
