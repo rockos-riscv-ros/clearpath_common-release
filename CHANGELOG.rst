@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2023-08-17)
+------------------
+* Added fenders for J100
+* Contributors: Roni Kreinin
+
 0.0.9 (2023-07-31)
 ------------------
 
