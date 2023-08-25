@@ -1,0 +1,12 @@
+Source: ros-humble-clearpath-description
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-clearpath-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-clearpath-mounts-description, ros-humble-clearpath-platform-description, ros-humble-clearpath-sensors-description, ros-humble-ros-workspace
+Description: Clearpath URDF descriptions metapackage
