@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2023-08-25)
+------------------
+
 0.1.0 (2023-08-17)
 ------------------
 * Removed joy_teleop namespace, remap topics to that namespace instead
