@@ -2,6 +2,9 @@
 Changelog for package clearpath_mounts_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2023-08-25)
+------------------
+
 0.1.0 (2023-08-17)
 ------------------
 * Added disk and post
