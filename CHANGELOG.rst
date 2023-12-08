@@ -2,6 +2,16 @@
 Changelog for package clearpath_sensors_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2023-12-08)
+------------------
+* Updated material on flir
+* Adds Blackfly camera to sensor description (`#33 <https://github.com/clearpathrobotics/clearpath_common/issues/33>`_)
+  * Adds Blackfly camera to sensor description
+  ---------
+  Co-authored-by: fazzrazz <danielduranrojas@gmail.com>
+* Added  to materials
+* Contributors: Hilary Luo, Luis Camero
+
 0.1.3 (2023-11-03)
 ------------------
 
