@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2023-12-21)
+------------------
+* PACS top plate was not centred with generated frames
+* Contributors: Hilary Luo
+
 0.2.0 (2023-12-08)
 ------------------
 * Added W200 Hardware interface.
