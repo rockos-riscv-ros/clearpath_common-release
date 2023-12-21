@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2023-12-21)
+------------------
+
 0.2.0 (2023-12-08)
 ------------------
 * Added wheel parameters to all robot
