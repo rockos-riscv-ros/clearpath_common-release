@@ -2,6 +2,9 @@
 Changelog for package clearpath_mounts_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2023-12-21)
+------------------
+
 0.2.0 (2023-12-08)
 ------------------
 * Fixed bracket origin
