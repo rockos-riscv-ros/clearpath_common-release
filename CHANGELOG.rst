@@ -2,6 +2,9 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2024-01-04)
+------------------
+
 0.2.1 (2023-12-21)
 ------------------
 * PACS top plate was not centred with generated frames
