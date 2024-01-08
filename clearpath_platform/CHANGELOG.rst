@@ -2,6 +2,9 @@
 Changelog for package clearpath_platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2024-01-08)
+------------------
+
 0.2.2 (2024-01-04)
 ------------------
 * Fixed status topic names
