@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2024-01-11)
+------------------
+* Fixed lighting lib install
+* Contributors: Roni Kreinin
+
 0.2.3 (2024-01-08)
 ------------------
 
