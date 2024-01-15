@@ -2,6 +2,11 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.5 (2024-01-15)
+------------------
+* switch finding meshes to use the package:// command
+* Contributors: Hilary Luo
+
 0.2.4 (2024-01-11)
 ------------------
 
