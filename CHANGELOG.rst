@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.6 (2024-01-18)
+------------------
+
 0.2.5 (2024-01-15)
 ------------------
 * switch finding meshes to use the package:// command
