@@ -2,6 +2,15 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2024-04-08)
+------------------
+* ARM_MOUNT to ARM_PLATE
+* Added simple package writer to copy package from template
+* Check terminal to set ROS_SUPER_CLIENT
+* Generate script to start the discovery server
+* Updated setup.bash generation for discovery server
+* Contributors: Hilary Luo, Luis Camero
+
 0.2.6 (2024-01-18)
 ------------------
 
