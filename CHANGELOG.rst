@@ -2,6 +2,9 @@
 Changelog for package clearpath_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2024-04-08)
+------------------
+
 0.2.6 (2024-01-18)
 ------------------
 * Disable tf_frame_prefix_enable
