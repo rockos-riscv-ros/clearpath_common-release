@@ -2,6 +2,12 @@
 Changelog for package clearpath_platform_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2024-04-08)
+------------------
+* All Warthog attachments default to 0
+* Aligned attachment links
+* Contributors: Luis Camero
+
 0.2.6 (2024-01-18)
 ------------------
 
