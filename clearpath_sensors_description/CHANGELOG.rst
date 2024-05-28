@@ -2,6 +2,11 @@
 Changelog for package clearpath_sensors_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.9 (2024-05-28)
+------------------
+* Added Zed URDF
+* Contributors: Luis Camero
+
 0.2.8 (2024-05-14)
 ------------------
 
