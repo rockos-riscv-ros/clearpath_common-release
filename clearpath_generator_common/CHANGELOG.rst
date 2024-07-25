@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.10 (2024-07-25)
+-------------------
+
 0.2.9 (2024-05-28)
 ------------------
 * Modified common parameter generation to always flatten
