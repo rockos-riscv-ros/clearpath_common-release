@@ -2,6 +2,9 @@
 Changelog for package clearpath_manipulators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2024-09-23)
+------------------
+
 0.3.0 (2024-09-19)
 ------------------
 * Fixed package version on new packages to match old packages.
