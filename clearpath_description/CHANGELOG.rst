@@ -2,6 +2,11 @@
 Changelog for package clearpath_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2024-09-23)
+------------------
+* Add manipulator dependencies
+* Contributors: Luis Camero
+
 0.3.0 (2024-09-19)
 ------------------
 * Changes.
