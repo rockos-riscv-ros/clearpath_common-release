@@ -1,0 +1,356 @@
+ros-humble-clearpath-generator-common (0.3.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 29 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.3.1-1jammy) jammy; urgency=high
+
+  * Add manipulator dependencies
+  * Fixed linting issues for manipulator generation
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 23 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.3.0-1jammy) jammy; urgency=high
+
+  * Changes.
+  * Add meshes and URDF for robotiq 2f 140
+  * Standard mesh names and height parameter for tower shoulder
+  * R100 attachment rework
+  * Add Dingo plate to generator
+  * 0.3.0 Release Candidate with Main Changes (#81 <https://github.com/clearpathrobotics/clearpath_common/issues/81>)
+    * Added tests
+    * Added action to build from release and source
+    * Generator linting erros
+    * Customization linting errors
+    * Linting
+    * Fix: Remove IP address from discovery server launch so it listens on all NICs
+    * Changes.
+    * 0.2.8
+    * Add sysctl config file that changes ipfrag settings to support receiving large messages
+    * Added Zed URDF
+    * Added Zed to description generator
+    * Modified common parameter generation to always flatten
+    * Changes.
+    * 0.2.9
+    * Missing important remapping to mirror hardware topics
+    * Added topic to gazebo plugins
+    * Updated topic names to match gazebo message types
+    * Topics of simulated onboard sensors
+    * Realsense adds optical links when in simulator
+    * Changes.
+    * 0.2.10
+    * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+    * Fixes styling issues
+    * Set spawner as super client
+    * Changes.
+    * 0.2.11
+    * Removed duplicate class
+    * Use ROS1 covariance values
+    * Updated renamed macanum drive controller
+    * Enable gazebo friction plugin on DingoO
+    ---------
+    Co-authored-by: Hilary Luo <mailto:hluo@clearpathrobotics.com>
+    Co-authored-by: Tony Baltovski <mailto:tbaltovski@clearpathrobotics.com>
+    Co-authored-by: Steve Macenski <mailto:stevenmacenski@gmail.com>
+    Co-authored-by: robbiefish <mailto:rob.fisher@hbkworld.com>
+  * 0.2.8
+  * Changes.
+  * Fix: Remove IP address from discovery server launch so it listens on all NICs
+  * 0.2.7
+  * Changes.
+  * ARM_MOUNT to ARM_PLATE
+  * Linting issues
+  * Use if statement
+  * Fixed all license headers
+  * Fixed linting issues of collision updater node
+  * Pass parameters to Kinova URDF
+  * Updated generators to deal with grippers as part of arms
+  * Create control file for manipulator controller manager
+  * Only add manipulator controllers if simulation
+  * Added virtual method for manipulator launch generation
+  * Added semantic description generator
+  * Added manipulators to parameter generator
+  * Add manipulators to description generator
+  * Modifications to allow arms to function
+  * Added simple package writer to copy package from template
+  * Check terminal to set ROS_SUPER_CLIENT
+  * Generate script to start the discovery server
+  * Updated setup.bash generation for discovery server
+  * 0.2.6
+  * Changes.
+  * 0.2.5
+  * Changes.
+  * switch finding meshes to use the package:// command
+  * 0.2.4
+  * Changes.
+  * [clearpath_generator_common] Added package description.
+  * 0.2.3
+  * Changes.
+  * Handle file paths with no directory (files in root directory of the package)
+  * 0.2.2
+  * Changes.xx
+  * Enable extras urdf and meshes to be linked by package (#53 <https://github.com/clearpathrobotics/clearpath_common/issues/53>)
+  * 0.2.1
+  * Changes.
+  * Contributors: Hilary Luo, Luis Camero, Tony Baltovski, luis-camero
+  * Add meshes and URDF for robotiq 2f 140
+  * Standard mesh names and height parameter for tower shoulder
+  * R100 attachment rework
+  * Add Dingo plate to generator
+  * Added tests
+  * Added action to build from release and source
+  * Generator linting erros
+  * Customization linting errors
+  * Fix: Remove IP address from discovery server launch so it listens on all NICs
+  * Add sysctl config file that changes ipfrag settings to support receiving large messages
+  * Added Zed URDF
+  * Added Zed to description generator
+  * Modified common parameter generation to always flatten
+  * Missing important remapping to mirror hardware topics
+  * Added topic to gazebo plugins
+  * Updated topic names to match gazebo message types
+  * Topics of simulated onboard sensors
+  * Realsense adds optical links when in simulator
+  * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+  * Fixes styling issues
+  * Set spawner as super client
+  * Removed duplicate class
+  * Use ROS1 covariance values
+  * Updated renamed macanum drive controller
+  * Enable gazebo friction plugin on DingoO
+  * Contributors: Hilary Luo, Luis Camero, Tony Baltovski, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 19 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.11-1jammy) jammy; urgency=high
+
+  * Fixes styling issues
+  * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+  * Contributors: robbiefish
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 08 Aug 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.10-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 25 Jul 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.9-1jammy) jammy; urgency=high
+
+  * Modified common parameter generation to always flatten
+  * Added Zed to description generator
+  * Add sysctl config file that changes ipfrag settings to support receiving large messages
+  * Linting
+  * Generator linting erros
+  * Added tests
+  * Contributors: Hilary Luo, Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 28 May 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.8-1jammy) jammy; urgency=high
+
+  * Fix: Remove IP address from discovery server launch so it listens on all NICs
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 14 May 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.7-1jammy) jammy; urgency=high
+
+  * ARM_MOUNT to ARM_PLATE
+  * Added simple package writer to copy package from template
+  * Check terminal to set ROS_SUPER_CLIENT
+  * Generate script to start the discovery server
+  * Updated setup.bash generation for discovery server
+  * Contributors: Hilary Luo, Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 08 Apr 2024 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.6-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 18 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.5-1jammy) jammy; urgency=high
+
+  * switch finding meshes to use the package:// command
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 15 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.4-1jammy) jammy; urgency=high
+
+  * [clearpath_generator_common] Added package description.
+  * Contributors: Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 11 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.3-1jammy) jammy; urgency=high
+
+  * Handle file paths with no directory (files in root directory of the package)
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 08 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.2-1jammy) jammy; urgency=high
+
+  * Enable extras urdf and meshes to be linked by package (#53 <https://github.com/clearpathrobotics/clearpath_common/issues/53>)
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 04 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.1-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 21 Dec 2023 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.2.0-1jammy) jammy; urgency=high
+
+  * Added wheel parameters to all robot
+  * Wheel is now parameter
+  * Adds Blackfly camera to sensor description (#33 <https://github.com/clearpathrobotics/clearpath_common/issues/33>)
+    * Adds Blackfly camera to sensor description
+    ---------
+    Co-authored-by: fazzrazz <mailto:danielduranrojas@gmail.com>
+  * Removed print in platform description generator
+  * Add imu0 to ekf_node for all platforms except A200
+  * Added W200 attachments to generator
+  * Platform no longer required
+  * Added  to materials
+  * Removed unecessary SimpleDescription
+  * Attachments not restricted by platform
+  * Simplified attachment generation
+  * Removed debug print
+  * Removed gazebo include from generator
+  * Read control.yaml directly from clearpath config specified file
+  * Allow for no macro to be added
+  * Moved gazebo controller to common
+  * Added Generic platform
+  * Contributors: Hilary Luo, Luis Camero, Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 08 Dec 2023 05:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.1.3-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 03 Nov 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.1.2-1jammy) jammy; urgency=high
+
+  * Adds Blackfly camera to sensor description (#33 <https://github.com/clearpathrobotics/clearpath_common/issues/33>)
+    * Adds Blackfly camera to sensor description
+    ---------
+    Co-authored-by: fazzrazz <mailto:danielduranrojas@gmail.com>
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 02 Oct 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.1.1-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 25 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.1.0-1jammy) jammy; urgency=high
+
+  * Removed joy_teleop namespace, remap topics to that namespace instead
+  * Added fenders for J100
+  * Renamed UST10 to UST
+    Added parameter node list
+  * Removed disk import
+  * Added disk and post
+    Set default values to model dictionaries
+  * Inverted and upright sick stand
+  * Added UM6/7
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 17 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.9-1jammy) jammy; urgency=high
+
+  * Added Garmin 18x, Novatel smart 6 and 7
+  * Update platform nodes from extra ros parameters
+    Flattened default parameter files
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 31 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.8-1jammy) jammy; urgency=high
+
+  * Linting
+  * use_sim_time support
+  * Description and Bash generator cleanup
+  * Minor cleanup
+  * Param generator
+  * Launch generator cleanup
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.7-1jammy) jammy; urgency=high
+
+  * Renamed description to attachments
+  * Rnamed accessories to links
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 19 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.6-1jammy) jammy; urgency=high
+
+  * Merge pull request #18 <https://github.com/clearpathrobotics/clearpath_common/issues/18> from clearpathrobotics/updated-config
+    Updated common generators to match config
+  * Fixed getters
+  * Updated common generators to match config
+  * Contributors: Luis Camero, Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 07 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.3-1jammy) jammy; urgency=high
+
+  * Linters
+  * Updated localization configs
+  * Updated husky track value
+  * Wheel slip plugin
+    Significantly improved jackal odom in sim
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-common (0.0.1-1jammy) jammy; urgency=high
+
+  * Updated launch writer make writing different object types easier
+    Localization parameter fixes
+    Updated gazebo wheel friction
+  * Added namespacing support
+  * Updated dependencies
+  * Added clearpath_generator_common
+    Moved clearpath_platform to clearpath_common
+    Fixed use_sim_time parameter issue with ekf_node
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 Jun 2023 04:00:00 -0000
+
+
