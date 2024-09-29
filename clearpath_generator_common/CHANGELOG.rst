@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2024-09-29)
+------------------
+
 0.3.1 (2024-09-23)
 ------------------
 * Add manipulator dependencies
