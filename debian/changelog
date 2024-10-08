@@ -1,0 +1,300 @@
+ros-humble-clearpath-sensors-description (0.3.4-1jammy) jammy; urgency=high
+
+  * Fixed OakD URDF.
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 08 Oct 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.3.3-1jammy) jammy; urgency=high
+
+  * Add OAKD
+  * Added phidget spatial URDF
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 04 Oct 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.3.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 29 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 23 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.3.0-1jammy) jammy; urgency=high
+
+  * Changes.
+  * 0.3.0 Release Candidate with Main Changes (#81 <https://github.com/clearpathrobotics/clearpath_common/issues/81>)
+    * Added tests
+    * Added action to build from release and source
+    * Generator linting erros
+    * Customization linting errors
+    * Linting
+    * Fix: Remove IP address from discovery server launch so it listens on all NICs
+    * Changes.
+    * 0.2.8
+    * Add sysctl config file that changes ipfrag settings to support receiving large messages
+    * Added Zed URDF
+    * Added Zed to description generator
+    * Modified common parameter generation to always flatten
+    * Changes.
+    * 0.2.9
+    * Missing important remapping to mirror hardware topics
+    * Added topic to gazebo plugins
+    * Updated topic names to match gazebo message types
+    * Topics of simulated onboard sensors
+    * Realsense adds optical links when in simulator
+    * Changes.
+    * 0.2.10
+    * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+    * Fixes styling issues
+    * Set spawner as super client
+    * Changes.
+    * 0.2.11
+    * Removed duplicate class
+    * Use ROS1 covariance values
+    * Updated renamed macanum drive controller
+    * Enable gazebo friction plugin on DingoO
+    ---------
+    Co-authored-by: Hilary Luo <mailto:hluo@clearpathrobotics.com>
+    Co-authored-by: Tony Baltovski <mailto:tbaltovski@clearpathrobotics.com>
+    Co-authored-by: Steve Macenski <mailto:stevenmacenski@gmail.com>
+    Co-authored-by: robbiefish <mailto:rob.fisher@hbkworld.com>
+  * 0.2.8
+  * Changes.
+  * 0.2.7
+  * Changes.
+  * 0.2.6
+  * Changes.
+  * 0.2.5
+  * Changes.
+  * 0.2.4
+  * Changes.
+  * 0.2.3
+  * Changes.
+  * 0.2.2
+  * Changes.xx
+  * 0.2.1
+  * Changes.
+  * Contributors: Tony Baltovski, luis-camero
+  * Added tests
+  * Added action to build from release and source
+  * Generator linting erros
+  * Customization linting errors
+  * Linting
+  * Fix: Remove IP address from discovery server launch so it listens on all NICs
+  * Add sysctl config file that changes ipfrag settings to support receiving large messages
+  * Added Zed URDF
+  * Added Zed to description generator
+  * Modified common parameter generation to always flatten
+  * Missing important remapping to mirror hardware topics
+  * Added topic to gazebo plugins
+  * Updated topic names to match gazebo message types
+  * Topics of simulated onboard sensors
+  * Realsense adds optical links when in simulator
+  * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+  * Fixes styling issues
+  * Set spawner as super client
+  * Removed duplicate class
+  * Use ROS1 covariance values
+  * Updated renamed macanum drive controller
+  * Enable gazebo friction plugin on DingoO
+  * Contributors: Tony Baltovski, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 19 Sep 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.11-1jammy) jammy; urgency=high
+
+  * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+  * Contributors: robbiefish
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 08 Aug 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.10-1jammy) jammy; urgency=high
+
+  * Realsense adds optical links when in simulator
+  * Updated topic names to match gazebo message types
+  * Added topic to gazebo plugins
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 25 Jul 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.9-1jammy) jammy; urgency=high
+
+  * Added Zed URDF
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 28 May 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.8-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 14 May 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.7-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 08 Apr 2024 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.6-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 18 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.5-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 15 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.4-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 11 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.3-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 08 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 04 Jan 2024 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.1-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 21 Dec 2023 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.2.0-1jammy) jammy; urgency=high
+
+  * Updated material on flir
+  * Adds Blackfly camera to sensor description (#33 <https://github.com/clearpathrobotics/clearpath_common/issues/33>)
+    * Adds Blackfly camera to sensor description
+    ---------
+    Co-authored-by: fazzrazz <mailto:danielduranrojas@gmail.com>
+  * Added  to materials
+  * Contributors: Hilary Luo, Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 08 Dec 2023 05:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.1.3-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 03 Nov 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.1.2-1jammy) jammy; urgency=high
+
+  * Adds Blackfly camera to sensor description (#33 <https://github.com/clearpathrobotics/clearpath_common/issues/33>)
+    * Adds Blackfly camera to sensor description
+    ---------
+    Co-authored-by: fazzrazz <mailto:danielduranrojas@gmail.com>
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 02 Oct 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.1.1-1jammy) jammy; urgency=high
+
+  * Added Ignition frame names to simulate the real robot
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 25 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.1.0-1jammy) jammy; urgency=high
+
+  * Renamed UST10 to UST
+    Added parameter node list
+  * Added UM6/7
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 17 Aug 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.9-1jammy) jammy; urgency=high
+
+  * Added Garmin 18x, Novatel smart 6 and 7
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 31 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 19 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 07 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.2-1jammy) jammy; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-sensors-description (0.0.1-1jammy) jammy; urgency=high
+
+  * Added GPS
+    Added realsense gazebo parameters
+  * Added gazebo IMU plugin
+  * use_sim_time support
+    Added lidar gazebo plugins
+  * Sim fixes
+  * Bishop sensors/mounts
+  * Added microstrain
+  * Added velodyne
+  * Added realsense description
+  * Updated sensor naming
+  * Sensor descriptions
+  * Standard urdf and yaml file name and path
+    Fixed spacing in urdfs
+  * Description classes
+  * PACS mounts
+    Common PACS Riser
+    Hokuyo and novatel description fixes
+  * [clearpath_sensors_description] Moved Novatel and Hokuyo into sensors from J100.
+  * Added clearpath_sensors_description.
+  * Contributors: Roni Kreinin, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 21 Jun 2023 04:00:00 -0000
+
+
