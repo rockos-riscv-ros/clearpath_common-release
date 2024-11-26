@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Software License Agreement (BSD)
 #
 # @author    Luis Camero <lcamero@clearpathrobotics.com>
@@ -25,46 +27,53 @@
 # CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
-import os
-import shutil
 
-from ament_index_python.packages import get_package_share_directory
+# Redistribution and use in source and binary forms, with or without
+# modification, is not permitted without the express permission
+# of Clearpath Robotics.
+from clearpath_config.common.types.platform import Platform
+from clearpath_generator_common.bash.writer import BashWriter
+from clearpath_generator_common.common import BaseGenerator, BashFile
 
-from clearpath_generator_common.description.generator import DescriptionGenerator
+PLATFORMS = [
+    Platform.DD100,
+    Platform.DD150,
+    Platform.DO100,
+    Platform.DO150,
+    Platform.R100,
+]
 
-import xacro
 
+class VirtualCANGenerator(BaseGenerator):
 
-class TestRobotLaunchGenerator:
+    ROS_DISTRO_PATH = '/opt/ros/humble/'
 
-    def test_samples(self):
-        errors = []
-        share_dir = get_package_share_directory('clearpath_config')
-        sample_dir = os.path.join(share_dir, 'sample')
-        for sample in os.listdir(sample_dir):
-            # Create Clearpath Directory
-            src = os.path.join(sample_dir, sample)
-            dst = os.path.join(os.environ['HOME'], '.clearpath', 'robot.yaml')
-            shutil.rmtree(os.path.dirname(dst), ignore_errors=True)
-            os.makedirs(os.path.dirname(dst), exist_ok=True)
-            shutil.copy(src, dst)
-            # Generate
-            try:
-                rlg = DescriptionGenerator(os.path.dirname(dst))
-                rlg.generate()
-            except Exception as e:
-                errors.append("Sample '%s' failed to load: '%s'" % (
-                    sample,
-                    e.args[0],
-                ))
-            # Try to Load Xacro
-            try:
-                xacro.process_file(os.path.join(os.path.dirname(dst), 'robot.urdf.xacro')).toxml()
-            except xacro.XacroException as e:
-                if 'stereolabs' in src and 'package not found' in e.args[0]:
-                    continue
-                errors.append("Sample '%s' xacro failed to load: '%s'" % (
-                    sample,
-                    e.args[0],
-                ))
-        assert not errors, 'Errors: %s' % '\n'.join(errors)
+    def generate(self) -> None:
+        # Generate vcan start up script
+        self.generate_vcan_start()
+
+    def generate_vcan_start(self) -> None:
+        # Generate vcan start up script
+        vcan_start = BashFile(filename='vcan-start', path=self.setup_path)
+        bash_writer = BashWriter(vcan_start)
+
+        # Check platform
+        if self.clearpath_config.get_platform_model() in PLATFORMS:
+            port = 11412
+            serial = '/dev/ttycan0'
+            can = 'vcan0'
+            baud = 's8'
+            bash_writer.write(
+                f'/bin/sh -e /usr/sbin/clearpath-vcan-bridge '
+                f'-p {port} '
+                f'-d {serial} '
+                f'-v {can} '
+                f'-b {baud}'
+            )
+        else:
+            bash_writer.add_echo(
+                'No vcan bridge required.' +
+                'If this was launched as a service then the service will now end.'
+            )
+
+        bash_writer.close()
