@@ -29,10 +29,7 @@ import os
 import shutil
 
 from ament_index_python.packages import get_package_share_directory
-
-from clearpath_generator_common.description.generator import DescriptionGenerator
-
-import xacro
+from clearpath_generator_common.vcan.generator import VirtualCANGenerator
 
 
 class TestRobotLaunchGenerator:
@@ -50,20 +47,10 @@ class TestRobotLaunchGenerator:
             shutil.copy(src, dst)
             # Generate
             try:
-                rlg = DescriptionGenerator(os.path.dirname(dst))
+                rlg = VirtualCANGenerator(os.path.dirname(dst))
                 rlg.generate()
             except Exception as e:
                 errors.append("Sample '%s' failed to load: '%s'" % (
-                    sample,
-                    e.args[0],
-                ))
-            # Try to Load Xacro
-            try:
-                xacro.process_file(os.path.join(os.path.dirname(dst), 'robot.urdf.xacro')).toxml()
-            except xacro.XacroException as e:
-                if 'stereolabs' in src and 'package not found' in e.args[0]:
-                    continue
-                errors.append("Sample '%s' xacro failed to load: '%s'" % (
                     sample,
                     e.args[0],
                 ))
