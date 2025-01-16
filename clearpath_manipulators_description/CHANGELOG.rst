@@ -2,20 +2,15 @@
 Changelog for package clearpath_manipulators_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.1 (2025-01-16)
+2.0.0 (2025-01-16)
 ------------------
-
-1.1.0 (2025-01-15)
-------------------
-* Ewellix Lift (`#136 <https://github.com/clearpathrobotics/clearpath_common/issues/136>`_)
-  Ewellix Lift
-  -  Remove upper_joint
-  - Add moveit jpc
-  - Add control for joint position controller
-  - Add hardware parameters
-  - Add lifts to generators
-  - Initial add of Ewellix lift description files
-* Contributors: luis-camero
+* Add PTZ sim support (`#125 <https://github.com/clearpathrobotics/clearpath_common/issues/125>`_)
+  * Now that axis_camera is released via OSRF, depend on the official package, remove duplicate meshes
+  * Rename Gazebo plugins for Jazzy compatibility
+  * Modify Axis camera URDFs to using the axis_camera meshes. This lets us control the gazebo topics. Fix the GZ topic names. Camera data is now visible in the simulation
+  * Add joint controllers for the pan & tilt actuators. This provides velocity control over the simulated camera
+* Rename ign\_ -> gz\_ for gazebo dependencies, comment-out missing jazzy dependencies (for now)
+* Contributors: Chris Iverach-Brereton, Tony Baltovski, luis-camero
 
 1.0.0 (2024-11-25)
 ------------------
