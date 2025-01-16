@@ -2,6 +2,9 @@
 Changelog for package clearpath_generator_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2025-01-16)
+------------------
+
 1.1.0 (2025-01-15)
 ------------------
 * Ewellix Lift (`#136 <https://github.com/clearpathrobotics/clearpath_common/issues/136>`_)
