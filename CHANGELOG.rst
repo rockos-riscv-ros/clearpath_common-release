@@ -2,6 +2,9 @@
 Changelog for package clearpath_manipulators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2025-01-15)
+------------------
+
 1.0.0 (2024-11-25)
 ------------------
 * Added minimum version.
