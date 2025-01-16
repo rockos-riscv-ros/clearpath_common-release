@@ -1,3 +1,37 @@
+## clearpath_common (jazzy) - 2.0.0-1
+
+The packages in the `clearpath_common` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release clearpath_common -t jazzy -r jazzy` on `Thu, 16 Jan 2025 22:11:47 -0000`
+
+These packages were released:
+- `clearpath_bt_joy`
+- `clearpath_common`
+- `clearpath_control`
+- `clearpath_customization`
+- `clearpath_description`
+- `clearpath_generator_common`
+- `clearpath_manipulators`
+- `clearpath_manipulators_description`
+- `clearpath_mounts_description`
+- `clearpath_platform_description`
+- `clearpath_sensors_description`
+
+Version of package(s) in repository `clearpath_common`:
+
+- upstream repository: https://github.com/clearpathrobotics/clearpath_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## clearpath_common (humble) - 1.1.1-1
 
 The packages in the `clearpath_common` repository were released into the `humble` distro by running `/usr/bin/bloom-release clearpath_common -r humble -t humble` on `Thu, 16 Jan 2025 17:22:17 -0000`
