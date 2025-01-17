@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-sensors-description
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-sensors-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-axis-description, ros-jazzy-microstrain-inertial-description, ros-jazzy-realsense2-description, ros-jazzy-velodyne-description, ros-jazzy-ros-workspace
+Description: Clearpath sensors URDF descriptions
