@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-control
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-bt-joy, ros-jazzy-controller-manager, ros-jazzy-diff-drive-controller, ros-jazzy-imu-filter-madgwick, ros-jazzy-interactive-marker-twist-server, ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-trajectory-controller, ros-jazzy-joy-linux, ros-jazzy-robot-localization, ros-jazzy-robot-state-publisher, ros-jazzy-teleop-twist-joy (>= 2.6.1), ros-jazzy-twist-mux, ros-jazzy-ros-workspace
+Description: Controllers for Clearpath Robotics platforms
