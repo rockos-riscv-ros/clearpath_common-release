@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-description
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-manipulators-description (>= 2.1.0), ros-jazzy-clearpath-mounts-description (>= 2.1.0), ros-jazzy-clearpath-platform-description (>= 2.1.0), ros-jazzy-clearpath-sensors-description (>= 2.1.0), ros-jazzy-ros-workspace
+Description: Clearpath URDF descriptions metapackage
