@@ -2,6 +2,9 @@
 Changelog for package clearpath_bt_joy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2025-01-31)
+------------------
+
 2.0.3 (2025-01-21)
 ------------------
 * Bypass bluetooth link quality check (`#151 <https://github.com/clearpathrobotics/clearpath_common/issues/151>`_)
