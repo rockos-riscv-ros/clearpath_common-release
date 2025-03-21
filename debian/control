@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-manipulators
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-manipulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-manipulators-description (>= 2.1.0), ros-jazzy-gripper-controllers, ros-jazzy-moveit-configs-utils, ros-jazzy-moveit-kinematics, ros-jazzy-moveit-planners, ros-jazzy-moveit-planners-chomp, ros-jazzy-moveit-ros-move-group, ros-jazzy-moveit-ros-warehouse, ros-jazzy-moveit-simple-controller-manager, ros-jazzy-position-controllers, ros-jazzy-tf2-ros, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Description: MoveIt configuration built around Clearpath Configuration
