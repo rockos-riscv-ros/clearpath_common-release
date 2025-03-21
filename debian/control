@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-generator-common
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-pytest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-moveit-setup-srdf-plugins, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-generator-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-config (>= 2.1.0), ros-jazzy-clearpath-control (>= 2.1.0), ros-jazzy-clearpath-description (>= 2.1.0), ros-jazzy-clearpath-manipulators (>= 2.1.0), ros-jazzy-ros-workspace
+Description: Clearpath Common Generator
