@@ -1,0 +1,317 @@
+ros-jazzy-clearpath-customization (2.2.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 10 Mar 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (2.1.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 30 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (2.0.3-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 20 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (2.0.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 19 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (2.0.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 16 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (2.0.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 15 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (1.0.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 24 Nov 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.3.4-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 07 Oct 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.3.3-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 03 Oct 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.3.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sat, 28 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.3.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 22 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.3.0-1noble) noble; urgency=high
+
+  * Changes.
+  * 0.3.0 Release Candidate with Main Changes (#81 <https://github.com/clearpathrobotics/clearpath_common/issues/81>)
+    * Added tests
+    * Added action to build from release and source
+    * Generator linting erros
+    * Customization linting errors
+    * Linting
+    * Fix: Remove IP address from discovery server launch so it listens on all NICs
+    * Changes.
+    * 0.2.8
+    * Add sysctl config file that changes ipfrag settings to support receiving large messages
+    * Added Zed URDF
+    * Added Zed to description generator
+    * Modified common parameter generation to always flatten
+    * Changes.
+    * 0.2.9
+    * Missing important remapping to mirror hardware topics
+    * Added topic to gazebo plugins
+    * Updated topic names to match gazebo message types
+    * Topics of simulated onboard sensors
+    * Realsense adds optical links when in simulator
+    * Changes.
+    * 0.2.10
+    * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+    * Fixes styling issues
+    * Set spawner as super client
+    * Changes.
+    * 0.2.11
+    * Removed duplicate class
+    * Use ROS1 covariance values
+    * Updated renamed macanum drive controller
+    * Enable gazebo friction plugin on DingoO
+    ---------
+    Co-authored-by: Hilary Luo <mailto:hluo@clearpathrobotics.com>
+    Co-authored-by: Tony Baltovski <mailto:tbaltovski@clearpathrobotics.com>
+    Co-authored-by: Steve Macenski <mailto:stevenmacenski@gmail.com>
+    Co-authored-by: robbiefish <mailto:rob.fisher@hbkworld.com>
+  * 0.2.8
+  * Changes.
+  * 0.2.7
+  * Changes.
+  * Removed author tag
+  * Fixed mismatched tag
+  * Updated package.xml to match
+  * Extra namespace to device launch
+  * Fixed URDF issues
+  * Fixed package and executable name
+  * Added customization package
+  * Contributors: Luis Camero, Tony Baltovski, luis-camero
+  * Added tests
+  * Added action to build from release and source
+  * Generator linting erros
+  * Customization linting errors
+  * Linting
+  * Fix: Remove IP address from discovery server launch so it listens on all NICs
+  * Add sysctl config file that changes ipfrag settings to support receiving large messages
+  * Added Zed URDF
+  * Added Zed to description generator
+  * Modified common parameter generation to always flatten
+  * Missing important remapping to mirror hardware topics
+  * Added topic to gazebo plugins
+  * Updated topic names to match gazebo message types
+  * Topics of simulated onboard sensors
+  * Realsense adds optical links when in simulator
+  * Modifies platform param to add GQ7 IMU data to ekf_localization and adds GQ7 URDF
+  * Fixes styling issues
+  * Set spawner as super client
+  * Removed duplicate class
+  * Use ROS1 covariance values
+  * Updated renamed macanum drive controller
+  * Enable gazebo friction plugin on DingoO
+  * Removed author tag
+  * Fixed mismatched tag
+  * Updated package.xml to match
+  * Extra namespace to device launch
+  * Fixed URDF issues
+  * Fixed package and executable name
+  * Added customization package
+  * Contributors: Luis Camero, Tony Baltovski, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 18 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.11-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 07 Aug 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.10-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 24 Jul 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.9-1noble) noble; urgency=high
+
+  * Customization linting errors
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 27 May 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.8-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 13 May 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.7-1noble) noble; urgency=high
+
+  * Removed author tag
+  * Fixed mismatched tag
+  * Updated package.xml to match
+  * Extra namespace to device launch
+  * Fixed URDF issues
+  * Fixed package and executable name
+  * Added customization package
+  * Contributors: Luis Camero
+  * Removed author tag
+  * Fixed mismatched tag
+  * Updated package.xml to match
+  * Extra namespace to device launch
+  * Fixed URDF issues
+  * Fixed package and executable name
+  * Added customization package
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 07 Apr 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.6-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 17 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 14 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.4-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 10 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.3-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 07 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 03 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 20 Dec 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.2.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 07 Dec 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.1.3-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 02 Nov 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 01 Oct 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.1.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 24 Aug 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.1.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 16 Aug 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.9-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 30 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.8-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 23 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.7-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 18 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.6-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.5-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 11 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.4-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 06 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.3-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 03 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-customization (0.0.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 20 Jun 2023 16:00:00 -0000
+
+
