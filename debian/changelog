@@ -1,0 +1,260 @@
+ros-jazzy-clearpath-manipulators-description (2.2.0-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 10 Mar 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (2.1.0-1trixie) trixie; urgency=high
+
+  * Ewellix Lift (#136 <https://github.com/clearpathrobotics/clearpath_common/issues/136>) (#153 <https://github.com/clearpathrobotics/clearpath_common/issues/153>)
+    Ewellix Lift
+    - Add lift description
+    - Add lifts to generators
+  * Updated URDF
+  * Contributors: Luis Camero, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 30 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (2.0.3-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 20 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (2.0.2-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 19 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (2.0.1-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 16 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (2.0.0-1trixie) trixie; urgency=high
+
+  * Add PTZ sim support (#125 <https://github.com/clearpathrobotics/clearpath_common/issues/125>)
+    * Now that axis_camera is released via OSRF, depend on the official package, remove duplicate meshes
+    * Rename Gazebo plugins for Jazzy compatibility
+    * Modify Axis camera URDFs to using the axis_camera meshes. This lets us control the gazebo topics. Fix the GZ topic names. Camera data is now visible in the simulation
+    * Add joint controllers for the pan & tilt actuators. This provides velocity control over the simulated camera
+  * Rename ign_ -> gz_ for gazebo dependencies, comment-out missing jazzy dependencies (for now)
+  * Contributors: Chris Iverach-Brereton, Tony Baltovski, luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 15 Jan 2025 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (1.0.0-1trixie) trixie; urgency=high
+
+  * Add UR arm (#110 <https://github.com/clearpathrobotics/clearpath_common/issues/110>)
+  * Contributors: luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 24 Nov 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.3.4-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 07 Oct 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.3.3-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 03 Oct 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.3.2-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sat, 28 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.3.1-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 22 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.3.0-1trixie) trixie; urgency=high
+
+  * Fixed package version on new packages to match old packages.
+  * Changes.
+  * Add meshes and URDF for robotiq 2f 140
+  * Fixed all license headers
+  * Added dependencies to manipulators description
+  * Added Robotiq grippers for Kinova
+  * Added all joints to the Kinova gripper SRDF
+  * Removed unecessary parameter
+  * Gripper joint set through arm URD
+  * Added another variable to add namespace for MoveItt
+  * Added argument to toggle manipulator controllers
+  * Manipulator description to match platform description launch
+  * Added all descriptions for kinova manipulators
+  * Contributors: Luis Camero, Tony Baltovski
+  * Add meshes and URDF for robotiq 2f 140
+  * Fixed all license headers
+  * Added dependencies to manipulators description
+  * Added Robotiq grippers for Kinova
+  * Added all joints to the Kinova gripper SRDF
+  * Removed unecessary parameter
+  * Gripper joint set through arm URD
+  * Added another variable to add namespace for MoveItt
+  * Added argument to toggle manipulator controllers
+  * Manipulator description to match platform description launch
+  * Added all descriptions for kinova manipulators
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 18 Sep 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.11-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 07 Aug 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.10-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 24 Jul 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.9-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 27 May 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.8-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 13 May 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.7-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 07 Apr 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.6-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 17 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.5-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 14 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.4-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 10 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.3-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 07 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.2-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 03 Jan 2024 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.1-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 20 Dec 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.2.0-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 07 Dec 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.1.3-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 02 Nov 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.1.2-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 01 Oct 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.1.1-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 24 Aug 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.1.0-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 16 Aug 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.9-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 30 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.8-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Sun, 23 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.7-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 18 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.6-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 12 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.5-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 11 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.4-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 06 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.3-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 04 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.2-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 03 Jul 2023 16:00:00 -0000
+
+ros-jazzy-clearpath-manipulators-description (0.0.1-1trixie) trixie; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 20 Jun 2023 16:00:00 -0000
+
+
